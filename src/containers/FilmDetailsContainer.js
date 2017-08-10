@@ -7,7 +7,7 @@ import FilmDetails from '../components/FilmDetails';
 
 function mapStateToProps (state) {
     return {
-        film: state.activeFilm
+        characters: state.characters
     }
 }
 

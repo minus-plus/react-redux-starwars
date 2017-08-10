@@ -7,5 +7,5 @@ import {peopleReducer} from './peopleReducers';
 export default combineReducers({
     films: filmsReducers,
     activeFilm: filmReducers,
-    aveivePeopleList: peopleReducer
+    characters: peopleReducer
 })

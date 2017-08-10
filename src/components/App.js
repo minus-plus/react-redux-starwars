@@ -1,14 +1,12 @@
 import React, {Component}from 'react';
-import Filmlist from '../containers/FilmlistContainers';
+import Menu from './Menu';
 
 class App extends Component {
 
     render() {
         return (
             <div>
-                <div>
-                    <a href="/film-details/1">jfiejwifw</a>
-                </div>
+                <Menu />
                 {this.props.children}
             </div>
         )

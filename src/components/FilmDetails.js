@@ -3,13 +3,28 @@ import React, {Component} from 'react';
 class FilmDetails extends Component {
 
     componentDidMount() {
-        this.props.getPeopleList();
+        // after componentDidMount, getPeopleList with film id
+        const filmId = this.props.params.id;
+        this.props.getPeopleList(filmId);
     }
     render() {
-        console.log(this.props);
+        const {characters} = this.props;
         return (
-            <div>
-                film details
+            <div className="film-details-box">
+                <div>
+                    Characters:
+                </div>
+                <br />
+                {
+                    characters.map((character, key) => {
+                        return(
+                            <div key={key}>
+                                {character.name}
+                            </div>
+                        )
+                    })
+                }
+
             </div>
         )
     }
