@@ -1,0 +1,27 @@
+.app {
+}
+
+.app-title {
+    text-align: center;
+    border: 1px solid red;
+}
+
+.app-header {
+    background-color: #222;
+    height: 50px;
+    color: white;
+}
+
+.app-menu {
+    text-decoration: none;
+    padding: 5px;
+    width: 85px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.app-menu:hover {
+    background: orange;
+    text-decoration: none;
+}
