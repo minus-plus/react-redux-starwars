@@ -9,13 +9,8 @@ class Menu extends Component {
 
     render() {
         return(
-            <Navbar inverse fixedTop>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="/">Home</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
+            <Navbar inverse fixedTop className="nav">
+                <a href="/">Home</a>
 
             </Navbar>
         )
