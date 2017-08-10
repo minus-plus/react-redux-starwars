@@ -12,10 +12,11 @@ npm start
 
 ## UI preview
 ### Home - Film list
-![home][/public/images/UI.png]
+![home](https://github.com/minus-plus/react-redux-starwars/blob/master/public/images/UI.png)
+
 
 ### Home - Mobile compatible
-![mobie][/public/images/UI-mobile.png]
+![mobie](https://github.com/minus-plus/react-redux-starwars/blob/master/public/images/UI-mobile.png)
 
 ### Characters
-![chracters][/public/images/UI-2.png]
+![chracters](https://github.com/minus-plus/react-redux-starwars/blob/master/public/images/UI-2.png)
