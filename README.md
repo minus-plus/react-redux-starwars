@@ -12,11 +12,11 @@ npm start
 
 ## UI preview
 ### Home - Film list
-![home](public/images/UI.png)
+public/images/UI.png
 
 
 ### Home - Mobile compatible
-![mobie](public/images/UI-mobile.png)
+public/images/UI-mobile.png
 
 ### Characters
-![chracters](public/images/UI-2.png)
+public/images/UI-2.png
